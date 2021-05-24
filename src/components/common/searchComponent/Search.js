@@ -6,7 +6,7 @@ function Search() {
     <Fragment>
       <div className="search-container">
         <GrSearch />
-        <input type="text" className="input-search" />
+        <input type="text" className="input-search" placeholder="search.." />
       </div>
     </Fragment>
   );
