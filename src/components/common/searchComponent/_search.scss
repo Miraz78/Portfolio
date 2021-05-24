@@ -1,0 +1,30 @@
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+  svg {
+    width: 18px;
+    height: 18px;
+    font-size: larger;
+    padding-left: 10px;
+  }
+  svg:hover {
+    cursor: pointer;
+  }
+  .input-search {
+    border: none;
+    box-sizing: unset;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  &:focus-within{
+      border-width: 2px;
+      border-color: aliceblue;
+  }
+}

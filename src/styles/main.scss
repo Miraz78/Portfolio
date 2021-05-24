@@ -1,6 +1,8 @@
-@import "../components/common/header/header"
+@import "./theme";
+
 
 
 
 // component style sheets
-
+@import "../components//common/header/header";
+@import "../components/common/searchComponent/search";

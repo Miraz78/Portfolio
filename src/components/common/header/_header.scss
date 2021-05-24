@@ -1,4 +1,28 @@
+body{
+    margin: auto;
+}
+.header{
+    height: 70px;
+    background: $primary;
+    display: flex;
+    justify-content: space-around;
+   .logo-container{
 
+    .logo{
+        color:$secondary;
+    }
+   }
+   .action-container{
+    display: flex;
+    .home,.about,.contact,.project{
+        margin-right: 20px;
+        padding: 5px;
+        color: white;
+    }
+    }
+    
+    
+}
 
 
 
