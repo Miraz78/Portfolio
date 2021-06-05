@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react';
+import Header from '../common/header/Header';
 
 function About (){
     return (
         <Fragment>
-            <h2>i am on about page</h2>
+            <Header/>
+            <h2>I m on About page</h2>
         </Fragment>
     )
 }

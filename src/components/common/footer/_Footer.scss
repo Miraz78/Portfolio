@@ -1,0 +1,13 @@
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+    border: none;
+    .email-section,.contact-section,.Address-section{
+        width: 15%;
+        color: white;
+        border-right: 2px solid white;
+    }
+}

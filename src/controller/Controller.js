@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./home/Home";
-import About from "./about/About";
-import Contact from "./contact/Contact";
-import Project from "./project/Project";
+import Home from "../components/home/Home";
+import About from "../components/about/About";
+import Contact from "../components/contact/Contact";
+import Project from "../components/project/Project";
 
 function Controller() {
   return (
@@ -13,13 +13,13 @@ function Controller() {
           <Home />
         </Route>
 
-        <Route path="/Home/About">
+        <Route path="/About">
           <About />
         </Route>
-        <Route path="/Home/Contact">
+        <Route path="/Contact">
           <Contact />
         </Route>
-        <Route path="/Home/Project">
+        <Route path="/Project">
           <Project />
         </Route>
       </Switch>

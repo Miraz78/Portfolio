@@ -1,28 +1,39 @@
 import React, { Fragment } from "react";
-import {GrSearch} from "react-icons/gr"
-import Search from "../searchComponent/Search";
+import { Link } from "react-router-dom";
+// import {GrSearch} from "react-icons/gr"
+// import Search from "../searchComponent/Search";
 function Header() {
   return (
     <Fragment>
       <div className="header">
         <div className="logo-container">
-         <h2 className="logo">Portfolio</h2>
+          <Link to="/" className="logo">
+            MirazAli
+          </Link>
         </div>
         <div className="action-container">
-          <div className="home">
-            <h3>Home</h3>
+          <div className="home-container">
+            <Link to="/" className="home">
+              Home
+            </Link>
           </div>
-          <div className="about">
-            <h3>About</h3>
+
+          <div className="about-container">
+            <Link to="/About" className="about">
+              About
+            </Link>
           </div>
-          <div className="contact">
-            <h3>Contact</h3>
+          <div className="contact-container">
+            <Link to="/Contact" className="contact">
+              Contact
+            </Link>
           </div>
-          <div className="project">
-            <h3>Project</h3>
+          <div className="project-container">
+            <Link to="/Project" className="project">
+              Project
+            </Link>
           </div>
         </div>
-        <Search/>
       </div>
     </Fragment>
   );

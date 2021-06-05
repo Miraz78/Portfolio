@@ -1,0 +1,25 @@
+body{
+    // background-color: #393B44;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+  .info-container {
+    // border: 2px solid black;
+    width: 35%;
+    height: 40%;
+    // color: white;
+  }
+  .profile-image{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+    // background-color: #393B44;
+    background-color: $primary;
+    overflow: hidden;
+    }
+  }
+

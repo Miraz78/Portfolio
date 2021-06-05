@@ -1,28 +1,76 @@
-body{
-    margin: auto;
+body {
+  margin: auto;
 }
-.header{
-    height: 70px;
-    background: $primary;
+.header {
+  height: 70px;
+  background: $primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo-container {
+    margin-left: 8%;
+    .logo {
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+      margin-top: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+  .action-container {
     display: flex;
+    margin-right: 7%;
     justify-content: space-around;
-   .logo-container{
+    align-items: center;
 
-    .logo{
-        color:$secondary;
-    }
-   }
-   .action-container{
-    display: flex;
-    .home,.about,.contact,.project{
-        margin-right: 20px;
-        padding: 5px;
+    .home-container {
+      margin-right: 40px;
+      .home {
         color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .home:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+      }
     }
+    .about-container {
+      margin-right: 40px;
+      .about {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .about:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+      }
     }
-    
-    
+    .contact-container {
+      margin-right: 40px;
+      .contact {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .contact:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+      }
+    }
+    .project-container {
+      margin-right: 40px;
+      .project {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .project:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid white;
+      }
+    }
+  }
 }
-
-
-
