@@ -1,0 +1,76 @@
+.About-container {
+    display: flex;
+    .about-sideBar-container {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      background: $primary;
+      .home-section {
+        .home {
+          text-decoration: none;
+          color: white;
+          font-weight: 600px;
+          display: block;
+          padding: 16px;
+        }
+        .home:hover {
+            background-color: #555;
+          }
+      }
+      .project-section {
+        .project {
+          color: white;
+          display: block;
+          padding: 16px;
+          text-decoration: none;
+        }
+        .project:hover {
+          background-color: #555;
+        }
+      }
+  
+      .about-section {
+        .about {
+          color: white;
+          display: block;
+          padding: 16px;
+          text-decoration: none;
+        }
+        .about:hover {
+          background-color: #555;
+        }
+      }
+    }
+    .about-main-container {
+      margin-left:400px;
+      padding: 1px 16px;
+      height: 1000px;
+  
+      .heading{
+          margin-top: 20px;
+          width: 85%;
+          .about-heading{
+              border-bottom: 1px solid rgb(194, 192, 192);
+          }
+      }
+      .about-details{
+          margin-top: 5%;
+          width: 85%;
+      }
+      .sub-details{
+          margin-top: 5%;
+          width: 85%;
+      }
+      .all-skill-container{
+          margin-top: 5%;
+          width: 80%;
+          .content{
+              border: 1px solid rgb(187, 183, 183);
+          }
+      }
+    }
+  }
+  
