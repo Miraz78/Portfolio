@@ -36,6 +36,7 @@ body {
         border-bottom: 2px solid white;
       }
     }
+    
     .about-container {
       margin-right: 40px;
       .about {
@@ -44,18 +45,6 @@ body {
         font-size: 18px;
       }
       .about:hover {
-        padding-bottom: 3px;
-        border-bottom: 2px solid white;
-      }
-    }
-    .contact-container {
-      margin-right: 40px;
-      .contact {
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-      }
-      .contact:hover {
         padding-bottom: 3px;
         border-bottom: 2px solid white;
       }

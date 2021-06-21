@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     height: 250px;
-    background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+    background: $primary;
     border: none;
     .email-section,.contact-section,.Address-section{
         width: 15%;
