@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import portfolio from "./portfolio/portfolio  image 2.jpg";
+import portfolio from "./portfolio-image/portfolio  image 2.jpg";
 import birthday from "./birthday-image/BirthdayReminder image.jpg";
 import quiz from "./quiz-image/portfolio  image 2.jpg";
 
