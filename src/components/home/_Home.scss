@@ -9,6 +9,23 @@
     width: 35%;
     height: 40%;
     // color: white;
+
+    .intro{
+      font-size: 30px;
+      color: $primary;
+    }
+    .name{
+      font-size: 50px;
+      color: $primary;
+    }
+    .sub-heading{
+      font-size: 20px;
+      color: $primary;
+    }
+    .paragraph{
+      font-size: 18px;
+      color: $primary;
+    }
   }
   .img-container{
     .profile-image{

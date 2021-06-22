@@ -10,11 +10,10 @@ function Home() {
         <div className="info-container">
           <h3 className="intro">Hello!</h3>
           <h1 className="name">I'm Miraz Ali</h1>
-          <h3 className="sub-heading">Full Stack Web Developer</h3>
+          <h3 className="sub-heading">Technical Skill</h3>
           <p className="paragraph">
-            Full Stack Web Development along with Problem Solving. Technical
-            Stack Learned: Java, Data Structure Algorithm, HTML-5, CSS,
-            Javascript and React. Participated in various Coding Contest
+            Technical Stack Learned: Java, Data Structure Algorithm, HTML-5,
+            CSS, Javascript and React. Participated in various Coding Contest
             Organised by the Platform.
           </p>
         </div>
